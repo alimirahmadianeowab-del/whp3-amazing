@@ -1,0 +1,160 @@
+  .div-3 {
+    height: 110px;
+    margin-top: auto;
+    padding: 0 16px;
+    .box-maine2-7 {
+        margin: 0 auto;
+      width: 95%;
+      height: 100%;
+      background-color: var(--pink-color-100);
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+            padding: 0 60px 0 35px;
+      position: relative;
+      .box-right {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        .box-top {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          .box-top-right {
+            display: flex;
+            align-items: center;
+          }
+          .box-top-left {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 5px;
+            .clock-main2-7 {
+              width: 30px;
+              height: 30px;
+              background-color: var(--gray-color-0);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 5px;
+              -webkit-border-radius: 5px;
+              -moz-border-radius: 5px;
+              -ms-border-radius: 5px;
+              -o-border-radius: 5px;
+              span {
+                font-size: 14px;
+                font-weight: bold;
+                color: var(--black-color-1000);
+              }
+              &:nth-of-type(2) {
+                width: unset;
+                height: unset;
+                background-color: unset;
+              }
+              &:nth-of-type(4) {
+                width: unset;
+                height: unset;
+                background-color: unset;
+              }
+            }
+          }
+        }
+        .box-bottom {
+          span {
+            font-size: 11px;
+          }
+        }
+      }
+      .box-left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 7px;
+        z-index: 2;
+        .box-image {
+          position: relative;
+          .circle-img {
+            width: 73px;
+            height: 73px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 8px solid var(--gray-color-0);
+            cursor: pointer;
+            img {
+              width: 59px;
+              height: 59px;
+              object-fit: cover;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              -o-border-radius: 50%;
+            }
+          }
+          .image-discount {
+            width: 34px;
+            height: 20px;
+            background-color: var(--red-color-625);
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+            position: absolute;
+            top: 55px;
+            right: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+              font-size: 12px;
+              color: var(--gray-color-0);
+            }
+          }
+        }
+        .button-main2-4 {
+          .btn-main2-4 {
+            width: 145px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 7px;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+            border: unset;
+            outline: unset;
+            background-color: var(--gray-color-0);
+            cursor: pointer;
+            margin-right: 3px;
+            span {
+              color: var(--red-color-500);
+            }
+            svg {
+              fill: var(--red-color-500) !important;
+            }
+          }
+        }
+      }
+      .box-svg-7 {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
